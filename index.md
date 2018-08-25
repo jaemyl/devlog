@@ -1,7 +1,7 @@
 # Aug 24, 2018
 
 ## Blokus web app [the link](https://g30133.github.io/blokus)
-Programming Blokus piece to rotate and flip was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
+Programming Blokus pieces to rotate and flip was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
 ```
 // Piece.ts
 interface Delta {
@@ -19,7 +19,7 @@ class Piece {
 
 
 ## Github page
-Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :)
+Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :) Need to learn a bit of Jekyll btw.
 
 
 # Aug 23, 2018
