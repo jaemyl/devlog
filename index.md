@@ -34,10 +34,13 @@ Have been researching about free node hosting for some time.
 - Amazon Elastic Beanstalk or Lamba
 -- Eventual destination??
 
+## YouTube IFrame Player API
+Tested the examples. Was simple and easy to use.
+
 
 # Aug 22, 2018
 
-## Depoying node server on Heroku
+## Deploying node server on Heroku
 Simple with just a couple of changes, once you know that. :)
 ```
 // server.js
