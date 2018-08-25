@@ -19,7 +19,7 @@ class Piece {
 ```
 
 
-## Github page
+## Github page and Jekyll
 Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :) Need to learn a bit of Jekyll btw.
 
 
