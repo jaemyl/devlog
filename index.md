@@ -8,6 +8,7 @@ const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost:27017/${DATA
 const APP_PORT = process.env.PORT || 3000
 ```
 
+
 # Aug 23, 2018
 
 ## Node Hosting
@@ -18,6 +19,7 @@ Have been researching about free node hosting for some time.
 -- Didn't try it, but their free tier seems to offer **just a littple bit more generously than Heroku's??**.
 - Amazon Elastic Beanstalk or Lamba
 -- Eventual destination??
+
 
 # Aug 24, 2018
 
