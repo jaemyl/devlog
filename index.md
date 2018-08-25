@@ -1,3 +1,8 @@
+---
+layout: post
+date:   2018-08-24
+---
+
 # Aug 24, 2018
 
 ## Blokus web app ###[the link](https://g30133.github.io/blokus)
