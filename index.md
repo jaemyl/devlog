@@ -17,7 +17,7 @@ Didn't try it, but their free tier seems to be **just a littple bit more than He
 - Amazon Elastic Beanstalk or Lamba
 Eventual destination??
 
-## [Blokus web app](https://gogeolee.github.io/blokus)
+## [Blokus web app](https://g30133.github.io/blokus)
 Programming to support Blokus piece to be rotated and flipped was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
 ```
 // Piece.ts
