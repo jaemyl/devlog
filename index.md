@@ -24,7 +24,7 @@ Have been researching about free node hosting for some time.
 # Aug 24, 2018
 
 ## Blokus web app [the link](https://g30133.github.io/blokus)
-Programming to support Blokus piece to be rotated and flipped was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
+Programming Blokus piece to rotate and flip was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
 ```
 // Piece.ts
 interface Delta {
@@ -39,3 +39,7 @@ class Piece {
   emit(board)
 }
 ```
+
+
+## Github page
+Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :)
