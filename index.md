@@ -1,11 +1,7 @@
----
-layout: post
-date:   2018-08-24
----
 
 # Aug 24, 2018
 
-## Blokus web app ###[the link](https://g30133.github.io/blokus)
+## Blokus web app [the link](https://g30133.github.io/blokus)
 Programming Blokus pieces to rotate and flip was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
 ```
 // Piece.ts
