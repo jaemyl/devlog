@@ -1,6 +1,6 @@
 # Aug 24, 2018
 
-## Blokus web app [the link](https://g30133.github.io/blokus)
+## Blokus web app ###[the link](https://g30133.github.io/blokus)
 Programming Blokus pieces to rotate and flip was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
 ```
 // Piece.ts
@@ -29,7 +29,7 @@ Have been researching about free node hosting for some time.
 - Heroku
 -- Heroku offers a free tier for hobbyists, but they shut down the servers after **30 minute idling**. Then, a new http request seems to trigger restarting the server and response comes after **~10 secs delay** in my tests. Also there is a limit on the number of DB rows(max 10K?) from free mLab add-on.
 - RedHat OpenShift
--- Didn't try it, but their free tier seems to offer **just a littple bit more generously than Heroku's??**.
+-- Didn't try it, but their free tier seems to offer **just a little bit more generously than Heroku's??**.
 - Amazon Elastic Beanstalk or Lamba
 -- Eventual destination??
 
