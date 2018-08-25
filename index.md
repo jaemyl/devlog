@@ -18,6 +18,9 @@ class Piece {
 }
 ```
 
+## gh-pages node module
+There is an [instruction](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment) from creae-react-app for easy deployment on github page.
+
 
 ## Github page and Jekyll
 Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :) Need to learn a bit of Jekyll btw.
