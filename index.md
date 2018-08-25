@@ -13,7 +13,7 @@ Have been researching about free node hosting for some time.
 - Heroku
 Heroku offers a free tier for hobbyists, but they shut down the servers after **30 minute idling**. Then, a new http request seems to trigger restarting the server and response comes after **~10 secs delay** in my tests. Also there is a limit on the number of DB rows(max 10K?) from free mLab add-on.
 - RedHat OpenShift
-Didn't try it, but their free tier seems to be **just a littple bit more than Heroku's??**.
+Didn't try it, but their free tier seems to offer **just a littple bit more generously than Heroku's??**.
 - Amazon Elastic Beanstalk or Lamba
 Eventual destination??
 
