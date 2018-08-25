@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Aug 24, 2018
 
-You can use the [editor on GitHub](https://github.com/jaemyl/devlog/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Depoying node server on Heroku
+Simple with just a couple of chnages..
+```
+// server.js
+const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost:27017/${DATABASE_NAME}`;
+const APP_PORT = process.env.PORT || 3000
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Node Hosting
+Have been researching about free node hosting for some time.
+- Heroku
+Heroku offers a free tier for hobbyists, but they shut down the servers after **30 minute idling**. Then, a new http request seems to trigger restarting the server and response comes after **~10 secs delay** in my tests. Also there is a limit on the number of DB rows(max 10K?) from free mLab add-on.
+- RedHat OpenShift
+Didn't try it, but their free tier seems to be **just a littple bit more than Heroku's??**.
+- Amazon Elastic Beanstalk or Lamba
+Eventual destination??
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaemyl/devlog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [Blokus web app](https://gogeolee.github.io/blokus)
+Programming to support Blokus piece to be rotated and flipped was the most interesting part. Introduced another layer of indirection to describe the relative position of each units within a blokus piece.
+```
+// Piece.ts
+interface Delta {
+  dr:number
+  dc:number
+}
+class Piece {
+  unitsDeltas: Delta[]
+  unitIxs: number[]
+  
+  setupPosition(nRows, nCols, startRow, startCol, rotationAngle, flipFace)
+  emit(board)
+}
+```
