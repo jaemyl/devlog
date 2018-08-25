@@ -25,6 +25,7 @@ There is an [instruction](https://github.com/facebook/create-react-app/blob/mast
 ## Github page and Jekyll
 Realized github page can be a good hosting option for static weg apps(**with javascript**), and also for devlog. :) Need to learn a bit of Jekyll btw.
 
+---
 
 # Aug 23, 2018
 
@@ -40,6 +41,7 @@ Have been researching about free node hosting for some time.
 ## YouTube IFrame Player API
 Tested the examples. Was simple and easy to use.
 
+---
 
 # Aug 22, 2018
 
