@@ -1,3 +1,9 @@
+# Aug 26, 2018
+
+## google cloud functions for firebase [link](https://codelabs.developers.google.com/codelabs/firebase-cloud-functions/#0)
+
+---
+
 # Aug 25, 2018
 
 ## git for windows platform from git-scm.com
@@ -20,7 +26,7 @@ updated to ver 2.18 from ver 2.13, and solved issue when 'npm run deploy'
 }
 ```
 
-## google firebase api [firebase web codelab](https://codelabs.developers.google.com/codelabs/firebase-web/#0)
+## google firebase web codelab [link](https://codelabs.developers.google.com/codelabs/firebase-web/#0)
 Wasted a bit of time to figure out auth failure on running the example. Turned out I mistakenly enabled rules on 'Cloud Firestore', not on 'Realtime Database'. Anyway, seems to be easy and good enough for simple web apps. Particularly liked it made the authentication easy.
 
 ---
