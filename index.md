@@ -1,3 +1,23 @@
+# Aug 25, 2018
+
+## simulating --cell-size = min(33vw, 33vh) using css variable and @media query
+```
+:root {
+  --cell-size: 33vw;
+}
+@media (min-aspect-radio: 1/1) {
+  :root {
+    --cell-size: 33vh;
+  }
+}
+.tictactoe-board {
+  display:grid;
+  grid-template-columns: repeat(3, var(--cell-size));
+  grid-template-rows: repeat(3, var(--cell-size));
+}
+```
+
+---
 
 # Aug 24, 2018
 
