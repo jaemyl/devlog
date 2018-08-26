@@ -1,5 +1,8 @@
 # Aug 25, 2018
 
+## git for windows platform from git-scm.com
+updated to ver 2.18 from ver 2.13, and solved issue when 'npm run deploy'
+
 ## simulating --cell-size = min(33vw, 33vh) using css variable and @media query
 ```
 :root {
