@@ -1,8 +1,10 @@
 # Aug 26, 2018
 
 ## google cloud functions for firebase [link](https://codelabs.developers.google.com/codelabs/firebase-cloud-functions/#0)
+Seems to be easy to use with good documentation, but there are negative reviews about its reliability and flexibility.
 
-## AWS lambda
+## AWS lambda, ec2 and lightsail
+Too many aws products out there. lightsail advertises it as good choice for quick startup.
 
 ---
 
