@@ -1,3 +1,8 @@
+# Aug 27, 2018
+
+## defbackend setup on heroku with mlab
+heroku mlab in free tier only provides one db, but with multiple collections. So probably I just set separate collections for each app. Possibly good enough for prototyping?
+
 # Aug 26, 2018
 
 ## google cloud functions for firebase [link](https://codelabs.developers.google.com/codelabs/firebase-cloud-functions/#0)
