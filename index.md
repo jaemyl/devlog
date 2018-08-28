@@ -1,7 +1,10 @@
 # Aug 27, 2018
 
 ## devbackend setup on heroku with mlab
+setup my heroku server only to run as api endpoints for multiple apps. With CORS setup on heroku side, now the clients from github.io can access api endpoints on heroku.
 heroku mlab in free tier only provides one db, but with multiple collections. So probably I just set separate collections for each app. Possibly good enough for prototyping?
+
+---
 
 # Aug 26, 2018
 
