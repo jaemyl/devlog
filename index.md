@@ -1,3 +1,10 @@
+# Aug 28, 2018
+
+## aws ec2 setup
+Was easier to set up a mongodb and node server than I expected, because I just set up one instance in oregon? Possibly more tricky if I had tried to set up multiple instances for clustering mongodb and node. Anyway, aws ec2 was pretty easy to get started.
+
+---
+
 # Aug 27, 2018
 
 ## devbackend setup on heroku with mlab
