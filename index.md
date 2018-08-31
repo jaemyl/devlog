@@ -1,3 +1,9 @@
+# Aug 30, 2018
+
+## chrmoe extensions for enotes.com and metabomb.net
+
+---
+
 # Aug 29, 2018
 
 ## YouTube Player API Reference for iframe Embeds
