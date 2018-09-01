@@ -1,12 +1,20 @@
+# Aug 31, 2018
+
+## Hearthstone Decktracker log.config [Link](https://github.com/jleclanche/fireplace/wiki/How-to-enable-logging)
+Once the log.config is set, we can get poewr.log, which contains the hearthstone play logs. Using it, we can make basic decktracker clone.
+
+---
+
 # Aug 30, 2018
 
 ## chrmoe extensions for enotes.com and metabomb.net
+Simple extensions to unblur or unveil the pages
 
 ---
 
 # Aug 29, 2018
 
-## YouTube Player API Reference for iframe Embeds[Link](https://developers.google.com/youtube/iframe_api_reference)
+## YouTube Player API Reference for iframe Embeds [Link](https://developers.google.com/youtube/iframe_api_reference)
 
 ## html iframe
 
