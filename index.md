@@ -1,3 +1,13 @@
+# Sep 11, 2018
+
+# Youtube Iframe API [Link](https://developers.google.com/youtube/iframe_api_reference)
+
+# Wifi Adapter not connecting issue
+Got clue from dmesg by line 'mach_set_rtc_mmss: Invalid RTC value'
+Had to manually set system time to silence the error message, which solved wifi adapter connection problem
+
+---
+
 # Aug 31, 2018
 
 ## Hearthstone Decktracker log.config [Link](https://github.com/jleclanche/fireplace/wiki/How-to-enable-logging)
