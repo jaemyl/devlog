@@ -1,3 +1,10 @@
+# Sep 12, 2018
+
+## Youtube Javascript Player
+Seems exposed custom events like yt-action, yt-navigate, and etc, could be used to dig the interval of yt-app player
+
+---
+
 # Sep 11, 2018
 
 ## Youtube Iframe API [Link](https://developers.google.com/youtube/iframe_api_reference)
