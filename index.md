@@ -1,7 +1,10 @@
 # Sep 12, 2018
 
+## Custom Youtube Players
+Many of them are based on html5 <video> tag
+
 ## Youtube Javascript Player
-Seems exposed custom events like yt-action, yt-navigate, and etc, could be used to dig the interval of yt-app player
+Using exposed custom events like yt-action, yt-navigate, and etc, it seems to be possible to dig the interval of yt-app player
 
 ---
 
