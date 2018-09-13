@@ -6,8 +6,10 @@ Many of them are based on html5 <video> tag
 ## Youtube Javascript Player
 Using exposed custom events like yt-action, yt-navigate, and etc, it seems to be possible to dig the interval of yt-app player
 
-## Commandline Youtube downloader
-soimort/you-get [link](https://github.com/soimort/you-get) is a command line tool to download youtube video. 
+## Commandline Youtube downloaders
+soimort/you-get [link](https://github.com/soimort/you-get) is a command line tool to download youtube written in python
+fent/node-ytdl-core [link](https://github.com/fent/node-ytdl-core) is another command line downloader written in javascript
+and any more in github. Need to research and find a simple and easy one.
 
 ---
 
