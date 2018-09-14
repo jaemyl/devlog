@@ -1,7 +1,10 @@
 # Sep 14, 2018
 
 ## dispatching mouseover event from chrome extension
-The dispatched event with the read only propertiy 'isTrusted' set to false doens't seem to fool youtube javascript player
+The dispatched event with the read only propertiy 'isTrusted' set to false. Wondering this affect fooling youtube javascript player hard??
+
+## youtube javascript player '_yt_player in base.js'
+It is the one of the very few global variable exposed. The anomymous function receives the variable as the only input, and sets it up.
 
 ---
 
