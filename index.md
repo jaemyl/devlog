@@ -1,3 +1,10 @@
+# Sep 14, 2018
+
+## dispatching mouseover event from chrome extension
+The dispatched event with the read only propertiy 'isTrusted' set to false doens't seem to fool youtube javascript player
+
+---
+
 # Sep 12, 2018
 
 ## Custom Youtube Players
